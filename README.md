@@ -2,13 +2,17 @@
 
 My personal portfolio site: web projects, apps and 3D modelling. When it's published, it will be live at **https://doggieshrimp.github.io/**
 
-It's a single hand-written HTML page (no frameworks or build step) with these sections:
+It's hand-written HTML and CSS (no frameworks or build step): `index.html` is the home page, `apps.html` has the full app pages, and both share `styles.css`.
+
+The home page has these sections:
 
 - **Web projects**
   - [Ball Battle](https://github.com/doggieshrimp/Ball-battle): a browser battle simulator with hand-written physics and 9 powers.
   - [CodeBreaker](https://github.com/doggieshrimp/CodeBreaker): create and decode secret messages with 7 ciphers, including real AES-256.
   - [SmoothFinish](https://github.com/doggieshrimp/SmoothFinish): a website for a local ironing business.
-- **Apps:** StudyXP, a gamified study app built with Flutter (in development).
+- **Apps** (previews; full details on `apps.html`)
+  - [Nouri](https://github.com/doggieshrimp/nouri): a free, ad-free calorie tracker for Android with dyslexia-friendly display settings.
+  - StudyXP: a gamified study app built with Flutter (in development).
 - **3D modelling:** services I offer (game assets, character renders, custom commissions) and a gallery of renders.
 
 ## Adding 3D renders

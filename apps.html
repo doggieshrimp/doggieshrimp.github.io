@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apps · Brenden Hardy</title>
+<meta name="description" content="Mobile apps by Brenden Hardy: Nouri, a free calorie tracker with dyslexia-friendly settings, and StudyXP, a study app that turns revision into a game.">
+<meta property="og:title" content="Apps · Brenden Hardy">
+<meta property="og:description" content="Nouri, a free and ad-free calorie tracker, and StudyXP, a gamified study app.">
+<meta property="og:image" content="https://doggieshrimp.github.io/images/nouri.jpg">
+<meta property="og:url" content="https://doggieshrimp.github.io/apps.html">
+<meta name="theme-color" content="#0d0f14">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23ff7a45'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='28' font-weight='700' text-anchor='middle' fill='%230d0f14'%3EBH%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo" aria-label="Brenden Hardy, home">
+      <span class="logo-mark">BH</span>
+      <span class="logo-name">Brenden Hardy</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html#projects">Web</a>
+      <a href="apps.html" class="active" aria-current="page">Apps</a>
+      <a href="index.html#modelling">3D</a>
+      <a href="index.html#about" class="hide-sm">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero" id="top">
+  <div class="blobs" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b3"></div>
+  </div>
+  <div class="container">
+    <a class="link-arrow" href="index.html">← Back to home</a>
+    <p class="section-label" style="margin-top:28px;">Apps</p>
+    <h1>Mobile apps</h1>
+    <p class="lead">Apps for things people do every day, like tracking what they eat or getting through revision. Everything is saved on your own device, and there are no ads.</p>
+    <div class="jump">
+      <a href="#nouri"><img src="images/apps/nouri-icon.png" alt="" width="30" height="30">Nouri</a>
+      <a href="#studyxp"><span class="app-glyph" aria-hidden="true">XP</span>StudyXP</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="nouri">
+    <div class="container app-detail">
+      <div class="app-copy">
+        <div class="app-title">
+          <img class="app-icon" src="images/apps/nouri-icon.png" alt="Nouri app icon" width="64" height="64">
+          <div>
+            <h2>Nouri</h2>
+            <span class="pill">Android app · web version live</span>
+          </div>
+        </div>
+        <p>A free, ad-free calorie and macro tracker, styled like the nutrition-facts label on food packaging. Log what you eat in a few taps and see what's left of your daily goal at a glance.</p>
+
+        <div class="feature-groups">
+          <div>
+            <h3>Track your day</h3>
+            <p>Daily calorie goal with a remaining or over indicator, plus protein, carbs and fat. Day-by-day history.</p>
+          </div>
+          <div>
+            <h3>Find food fast</h3>
+            <p>Search USDA FoodData Central, scan barcodes on Android, or add your own foods. Recent foods and saved meals are one tap away.</p>
+          </div>
+          <div>
+            <h3>Easy to read</h3>
+            <p>Dyslexia-friendly settings based on the British Dyslexia Association style guide: tinted backgrounds, 4 fonts including OpenDyslexic, larger text and extra spacing.</p>
+          </div>
+          <div>
+            <h3>Private by design</h3>
+            <p>Your log stays on your device, with backup export and import. The goal calculator never stores your height, weight or age.</p>
+          </div>
+        </div>
+
+        <div class="built-with">
+          <h3>Built with</h3>
+          <div class="chips"><span class="chip">React 19</span><span class="chip">TypeScript</span><span class="chip">Vite</span><span class="chip">Tailwind CSS</span><span class="chip">Dexie (IndexedDB)</span><span class="chip">Capacitor</span><span class="chip">ML Kit</span><span class="chip">Vitest</span></div>
+        </div>
+
+        <div class="btn-row">
+          <a class="btn primary" href="https://doggieshrimp.github.io/nouri/" target="_blank" rel="noopener">Try the web version</a>
+          <a class="btn" href="https://github.com/doggieshrimp/nouri" target="_blank" rel="noopener">Code</a>
+          <a class="btn" href="https://doggieshrimp.github.io/nouri/privacy.html" target="_blank" rel="noopener">Privacy policy</a>
+        </div>
+      </div>
+
+      <div class="phones">
+        <div class="phone"><img src="images/apps/nouri-home.jpg" alt="Nouri daily log showing calories, daily goal, remaining calories and macros" width="390" height="844" loading="lazy"></div>
+        <div class="phone"><img src="images/apps/nouri-display.jpg" alt="Nouri display and reading settings with background colours, fonts and text sizes" width="390" height="844" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="studyxp" class="alt">
+    <div class="container app-detail reverse">
+      <div class="app-copy">
+        <div class="app-title">
+          <span class="app-glyph" aria-hidden="true">XP</span>
+          <div>
+            <h2>StudyXP</h2>
+            <span class="pill dev">In development</span>
+          </div>
+        </div>
+        <p>A study app that turns revision into a game. Instead of a boring to-do list, you complete quests, earn XP and level up, so there's always a reason to do one more session.</p>
+
+        <div class="feature-groups">
+          <div>
+            <h3>Quests</h3>
+            <p>Timed focus quests with a built-in study timer, daily checkmark quests, and your own custom quests.</p>
+          </div>
+          <div>
+            <h3>XP &amp; levels</h3>
+            <p>Every quest earns XP towards your next level, with a daily streak to keep you coming back.</p>
+          </div>
+          <div>
+            <h3>Study Buddy</h3>
+            <p>A pet to name, feed and look after, with a bubble-popping mini-game that earns bonus XP.</p>
+          </div>
+          <div>
+            <h3>Stats</h3>
+            <p>See your progress over time. Everything is saved on your device.</p>
+          </div>
+        </div>
+
+        <div class="built-with">
+          <h3>Built with</h3>
+          <div class="chips"><span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">Material Design</span><span class="chip">shared_preferences</span></div>
+        </div>
+
+        <div class="btn-row">
+          <span class="btn disabled" aria-disabled="true">Coming soon</span>
+        </div>
+      </div>
+
+      <div class="phones">
+        <div class="phone solo"><img src="images/apps/studyxp-home.jpg" alt="StudyXP home screen showing level, XP, streak and timed study quests" width="390" height="844" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <p class="section-label">Contact</p>
+        <h2>Got an idea for an app?</h2>
+        <p>Want an app, a website or a 3D model, or just want to see more of my work? Find me on GitHub.</p>
+        <div class="btn-row">
+          <a href="https://github.com/doggieshrimp" class="btn primary" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+            github.com/doggieshrimp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© <span id="year">2026</span> Brenden Hardy</span>
+    <a href="index.html">← Back to home</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 8);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+</script>
+</body>
+</html>
