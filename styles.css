@@ -701,3 +701,31 @@ footer a:hover { color: var(--text); }
 .topic > p { color: var(--muted); font-size: 0.95rem; margin: 0 0 14px; }
 .topic .feature-list { margin-bottom: 20px; font-size: 0.92rem; flex: 1; }
 .topic .link-arrow { font-size: 0.92rem; }
+
+/* ---------- Sketchfab model embed ---------- */
+.model-embed { margin: 0 0 28px; }
+.model-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+.model-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+@media (max-width: 600px) { .model-frame { aspect-ratio: 4 / 3; } }
+.model-embed figcaption {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.model-embed figcaption a { color: var(--muted); text-decoration: none; }
+.model-embed figcaption a strong { color: var(--accent); font-weight: 600; }
+.model-embed figcaption a:hover { text-decoration: underline; text-underline-offset: 3px; }
