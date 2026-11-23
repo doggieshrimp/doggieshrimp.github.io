@@ -1,6 +1,6 @@
 # JohnGoblin · Portfolio
 
-My personal portfolio site: web projects, apps and 3D modelling. When it's published, it will be live at **portfolio.brendenhardy4.workers.dev**
+My personal portfolio site: web projects, apps and 3D modelling. When it's published, it will be live at **https://portfolio.brendenhardy4.workers.dev**
 
 It's hand-written HTML and CSS (no frameworks or build step): `index.html` is the home page, with separate pages for `apps.html`, `3d.html` and `contact.html`. They all share `styles.css`.
 
