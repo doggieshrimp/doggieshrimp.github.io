@@ -1,4 +1,4 @@
-# Brenden Hardy · Portfolio
+# JohnGoblin · Portfolio
 
 My personal portfolio site: web projects, apps and 3D modelling. When it's published, it will be live at **https://doggieshrimp.github.io/**
 
